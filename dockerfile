@@ -12,4 +12,4 @@ RUN go build -o eckert
 EXPOSE 8000
 
 # 容器启动时要执行的命令
-CMD ["/app/main"]
+CMD ["/app/eckert"]
