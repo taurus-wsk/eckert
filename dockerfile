@@ -1,5 +1,6 @@
 # 编译阶段
 FROM golang:1.17
+WORKDIR /app
 
 # 将 Golang 源代码复制到容器中
 COPY . .
@@ -11,4 +12,4 @@ RUN go build -o eckert
 EXPOSE 8000
 
 # 容器启动时要执行的命令
-CMD ["/eckert"]
+CMD ["/app/eckert"]
