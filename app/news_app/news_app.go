@@ -1,6 +1,7 @@
 package news_app
 
 import (
+	"eckert/domain/discord"
 	"eckert/infrastructure/router"
 	"github.com/gin-gonic/gin"
 	"net/http"
@@ -30,5 +31,5 @@ func (s *News) QuireNews(c *gin.Context) {
 }
 
 func (s *News) GetNews(c *gin.Context) {
-
+	discord.GetNews()
 }

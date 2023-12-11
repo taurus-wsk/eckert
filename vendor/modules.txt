@@ -1,9 +1,45 @@
 # github.com/PuerkitoBio/goquery v1.8.1
 ## explicit; go 1.13
 github.com/PuerkitoBio/goquery
+# github.com/RoaringBitmap/roaring v1.2.3
+## explicit; go 1.14
 # github.com/andybalholm/cascadia v1.3.1
 ## explicit; go 1.16
 github.com/andybalholm/cascadia
+# github.com/bits-and-blooms/bitset v1.2.0
+## explicit; go 1.14
+# github.com/blevesearch/bleve/v2 v2.3.10
+## explicit; go 1.19
+# github.com/blevesearch/bleve_index_api v1.0.6
+## explicit; go 1.18
+# github.com/blevesearch/geo v0.1.18
+## explicit; go 1.18
+# github.com/blevesearch/go-porterstemmer v1.0.3
+## explicit; go 1.13
+# github.com/blevesearch/gtreap v0.1.1
+## explicit; go 1.13
+# github.com/blevesearch/mmap-go v1.0.4
+## explicit; go 1.13
+# github.com/blevesearch/scorch_segment_api/v2 v2.1.6
+## explicit; go 1.19
+# github.com/blevesearch/segment v0.9.1
+## explicit; go 1.18
+# github.com/blevesearch/snowballstem v0.9.0
+## explicit; go 1.13
+# github.com/blevesearch/upsidedown_store_api v1.0.2
+## explicit; go 1.18
+# github.com/blevesearch/vellum v1.0.10
+## explicit; go 1.18
+# github.com/blevesearch/zapx/v11 v11.3.10
+## explicit; go 1.19
+# github.com/blevesearch/zapx/v12 v12.3.10
+## explicit; go 1.19
+# github.com/blevesearch/zapx/v13 v13.3.10
+## explicit; go 1.19
+# github.com/blevesearch/zapx/v14 v14.3.10
+## explicit; go 1.19
+# github.com/blevesearch/zapx/v15 v15.3.13
+## explicit; go 1.19
 # github.com/bwmarrin/discordgo v0.27.1
 ## explicit; go 1.13
 github.com/bwmarrin/discordgo
@@ -38,6 +74,13 @@ github.com/goccy/go-json/internal/encoder/vm_color_indent
 github.com/goccy/go-json/internal/encoder/vm_indent
 github.com/goccy/go-json/internal/errors
 github.com/goccy/go-json/internal/runtime
+# github.com/golang/geo v0.0.0-20210211234256-740aa86cb551
+## explicit; go 1.12
+# github.com/golang/protobuf v1.5.0
+## explicit; go 1.9
+# github.com/golang/snappy v0.0.1
+## explicit
+github.com/golang/snappy
 # github.com/gorilla/websocket v1.4.2
 ## explicit; go 1.12
 github.com/gorilla/websocket
@@ -67,6 +110,11 @@ github.com/modern-go/concurrent
 # github.com/modern-go/reflect2 v1.0.2
 ## explicit; go 1.12
 github.com/modern-go/reflect2
+# github.com/mschoch/smat v0.2.0
+## explicit; go 1.13
+# github.com/nsqio/go-nsq v1.1.0
+## explicit; go 1.11
+github.com/nsqio/go-nsq
 # github.com/pelletier/go-toml/v2 v2.0.1
 ## explicit; go 1.16
 github.com/pelletier/go-toml/v2
@@ -76,6 +124,8 @@ github.com/pelletier/go-toml/v2/internal/tracker
 # github.com/ugorji/go/codec v1.2.7
 ## explicit; go 1.11
 github.com/ugorji/go/codec
+# go.etcd.io/bbolt v1.3.7
+## explicit; go 1.17
 # golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 ## explicit; go 1.17
 golang.org/x/crypto/internal/poly1305
@@ -97,7 +147,7 @@ golang.org/x/net/idna
 ## explicit; go 1.17
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
-# golang.org/x/text v0.7.0
+# golang.org/x/text v0.8.0
 ## explicit; go 1.17
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap

@@ -1,5 +1,5 @@
 # 编译阶段
-FROM golang:1.17
+FROM golang:1.21
 WORKDIR /app
 
 # 将 Golang 源代码复制到容器中
